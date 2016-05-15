@@ -1,0 +1,79 @@
+/* This is a comment */
+
+body {
+	/* background-color: #bada55 */;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: helvetica, arial, sans-serif
+}
+
+.main {
+	background-color: white;
+	background-color: rgba(255,255,255,0.4);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 5px rgba(255,255,255,0.8);
+}
+
+@media screen and (max-width: 768px) { 
+	.main {
+		width:100%;
+		box-sizing: border-box;
+	} 
+}
+
+h1{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	color: navy;
+	text-shadow: 10px 10px 10px grey;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	color: navy ;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	border: 10px dotted white;
+	border-radius: 50%;
+}
+
+h3{
+	font-size: 24px;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+h3:hover {
+	text-decoration: underline;
+}
+
+p,
+ul,
+ol{
+	list-style: none;
+	line-height: 1.7;
+	padding-left: 0;
+}
+
+a{
+	color: #ff00cc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #aa0066;
+	text-decoration: underline;
+	}
